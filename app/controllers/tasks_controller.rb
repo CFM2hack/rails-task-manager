@@ -1,6 +1,5 @@
 class TasksController < ApplicationController
-
-  def list
-    tasks.all
-  end
+  # def list
+  #   tasks.all
+  # end
 end
