@@ -1,0 +1,8 @@
+<!-- taks.hmtl.erb
+ -->
+
+<h1> Task List</h1>
+
+<p><% @tasks.each do |task| %></p>
+  <p><%= link_to task.title, task_path(task) %></p>
+  <% end %>
